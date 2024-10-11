@@ -8,8 +8,8 @@ export default function Contact(){
         <header>
             <Link to="/">Home</Link>
             <Link to="/contact">Contact Us</Link>
-            <p>Contact Us!</p>
         </header>
+        <div className="contactForm"> <p>Schedule a Tutoring Session</p></div>
         </>
 
     )
