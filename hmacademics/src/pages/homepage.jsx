@@ -24,10 +24,10 @@ export default function Home(){
             <h3>Meet Mary</h3>
             <h2>Nursing Tutor</h2>
             <ul>
-                <p>7th. 8th Grade Math</p>
-                <p>Algebra 1, Algebra 2, Geometry</p>
-                <p>Statistics, Pre Calculus, Calculus 1-3</p>
-                <p>Linear Algebra and more...</p>
+                <p>Anatomy & Physiology 1 and 2</p>
+                <p>Nursing Class Fundamentals</p>
+                <p>Medical-Surgical</p>
+                <p>Pharmacology and more...</p>
             </ul>
         </div>
         <div className="topics">
