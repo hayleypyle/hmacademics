@@ -78,7 +78,7 @@ export default function Home(){
                 <h5>Standard Topics</h5>
                 <ul>
                     <li>Biology</li>
-                    <li>Chemistry</li>
+                    <li>Chemistry I</li>
                     <li>Anatomy & Physiology</li>
                     <li>Microbiology</li>
                     <li>and more...</li>
