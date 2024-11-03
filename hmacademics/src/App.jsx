@@ -12,7 +12,7 @@ function App() {
           <Route path="/" element={<Home />}/>
           <Route path="/contact" element={<Contact />}/>
 
-      
+  
         </Routes>
       </HashRouter>
 

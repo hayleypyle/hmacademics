@@ -4,36 +4,15 @@
 
 }
 
-@font-face {
-    font-family: 'Garet'; /* The name you'll use in your CSS */
-    src: local('Garet-Book'), url('./fonts/Garet-Book.otf') format('opentype');
-    font-weight: 200; /* Adjust weight if necessary */
-    font-style: normal; /* Adjust style if necessary */
-}
-
 .container {
     display:flex;
     flex-direction: column;
     align-items: center;
-    font-family: "Garet", sans-serif;
-}
-
-h2, h3, h4, h5, h6{
-    font-weight:200;
-}
-
-h4 {
-    font-size:20px;
-}
-
-h5{
-    font-size:15px;
 }
 
 header {
     font-family: "Garet", sans-serif;
-    font-size: 1.25rem;
-    font-weight:200;
+    font-weight:400;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     height:10vh;
     display:flex;
@@ -53,287 +32,79 @@ a {
 
 .about{
     font-family: "Garet", sans-serif;
-    height:300px;
+    font-weight:400;
+    height:20vh;
     display:flex;
     flex-direction: column;
-    /* justify-content: space-between; */
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: center;
-    color: black;
+    color: #868B8E;
     text-align: center;
-    padding:5%;
-}
+    padding-top:10vw;
+    padding-left:10vw;
+    padding-right:10vw;
 
-.about img{
-    width: 47vw;
 }
 
 .contactForm {
     font-family: "Garet", sans-serif;
-    font-weight:200;
+    font-weight:400;
+    height:20vh;
     display:flex;
     flex-direction: column;
-    align-items:center;
+    justify-content: space-evenly;
+    align-items: center;
     color: #868B8E;
-    text-align: left;
+    text-align: center;
     padding:10vw;
-    height:100%;
-}
-
-.contactForm input, button, textarea {
-    margin:10px;
-    width:100%;
-}
-
-.contactForm h1{
-    font-weight:200;
-    margin-bottom:20px;
-}
-
-.contactForm-group{
-    display:flex;
-    flex-direction:column;
 }
 
 
 .topics h2{
     font-size: 1.25rem;
-    font-weight:200;
     color: #588157;
     margin-bottom:1%;
 }
 .topics h1{
     font-size: 1.5rem;
     color: grey;
-    font-weight:200;
+    font-weight:400;
     margin-bottom:1%;
 
 }
 
 h3{
     font-family: "Garet", sans-serif;
-    font-weight:200;
+    font-weight:400;
     margin-top:15px;
     font-size:1rem;
 }
 .topics{
     font-family: "Garet", sans-serif;
-    font-weight:200;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    font-weight:400;
     height:100%;
     width: 100vw;
     display:flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     text-align: left;
     color: black;
     background-color:#588157;
-    padding-bottom:5vw;
 
 }
 
 .secondary-topics{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
     background-color:white;
-    width: 600px;
-    margin-top: 5vw;
-    padding:3%;
+    width: 85vw;
+    /* height:100%; */
+    margin:10vw;
+    padding:5%;
 
-}
-
-.experience{
-    margin-left:20px;
 }
 
 ul{
     margin-left:25px;
     margin-top:10px;
-}
-
-img{
-    width:300px;
-}
-
-.schedule{
-    font-family: "Garet", sans-serif;
-    font-weight:100;
-    font-size:2rem;
-    height:400px;
-    width: 100vw;
-    padding-left:15px;
-    padding-right:15px;
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
-    color: black;
-    background-color:white;
-
-}
-
-button{
-    font-family:'Garet', sans-serif;
-    font-weight:200;
-    font-size:1rem;
-    background-color: #588157;
-    color: white;
-    padding: 20px 40px;
-    border-radius: 30px;
-    border-style: none;
-    cursor: pointer;
-
-}
-
-.rates{
-    font-family: "Garet", sans-serif;
-    font-weight:100;
-    height:100%;
-    width: 100vw;
-    color: black;
-    background-color:#588157;
-    display:flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    padding-top:5%;
-    justify-content: space-evenly;
-}
-
-.rates h2{
-    width:100vw;
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-    align-self:center;
-    color:white;
-
-}
-
-.rate-box{
-    display:flex;
-    flex-direction: column;
-    flex-wrap:wrap;
-    justify-content: space-evenly;
-    background-color:#ffffff;
-    min-height:250px;
-    min-width:200px;
-    width:15%;
-    margin:15px;
-    padding:3%;
-
-}
-
-.price{
-    background-color:#FCB017;
-    margin-top:10px;
-    padding:20px;
-    align-items:center;
-    align-self:center;
-}
-
-
-.form-input{
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-}
-
-.contact-pref input{
-    margin:10px;
-}
-
-
-footer{
-    font-family: "Garet", sans-serif;
-    font-weight:100;
-    background-color: #588157;
-    color: white;
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 10vh;
-    font-size: 1rem;
-    padding: 1rem;
-}
-
-
-@media (max-width: 500px) {
-    .about{
-        padding-top:1vw;
-        padding-left:1vw;
-        padding-right:1vw;
-    
-    }
-
-    .about img{
-        width:100%;
-    }
-
-    img{
-        width:80%;
-    }
-
-    .secondary-topics{
-        display:flex;
-        flex-direction:column;
-        width: 100vw;
-        margin: 5vw;
-        padding:3%;
-    
-    }
-
-    .meet{
-        display:flex;
-        flex-direction:column;
-        align-items: center;
-    }
-
-    .experience{
-        margin-top:10px;
-        width:80%;
-        display:flex;
-        flex-direction:column;
-        align-items: center;
-    }
-
-    .schedule{
-        width:60%;
-        height:50vh;
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        text-align: center;
-        font-size:1.5rem;
-        padding:20%;
-    
-    }
-
-    .rates{
-        display:flex;
-        flex-direction:row;
-        flex-wrap:wrap;
-        justify-content: center;
-        align-items: center;
-        height:100%;
-        padding-top:20px;
-    }
-
-    .rate-box{
-        display:flex;
-        flex-direction: column;
-        flex-wrap:wrap;
-        background-color:#ffffff;
-        width:80%;
-
-    }
-
-
-    .price{
-        margin-top:10px;
-    }
-
 }
