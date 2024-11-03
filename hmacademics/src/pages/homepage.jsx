@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import './styles.css'
 import Mary from '../img/Mary.jpeg'
 import Hayley from '../img/picHayley.jpg'
+import Logo from '../img/HMALogo.png'
 
 
 export default function Home(){
@@ -14,11 +15,9 @@ export default function Home(){
             
         </header>
         <div className="container">
-        {/* <div>
-        <MySvgFile />
-        </div> */}
         <div className="about">
-        <h1>H&M Academics</h1>
+        <img src={Logo}></img>
+        
         </div>
 
         <div className="topics">
@@ -128,7 +127,7 @@ export default function Home(){
         </div>
         </div>
         <footer>
-            <p>H&M Academics</p>
+            <Link to="/">H&M Academics</Link>
             <Link to="/contact">Contact Us</Link>
         </footer>
 
