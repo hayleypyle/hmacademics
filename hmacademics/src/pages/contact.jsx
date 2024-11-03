@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './styles.css'
-import { ContactUs } from './ContactUs'
+import {ContactUs} from './ContactUs'
+
 
 export default function Contact(){
     return(
@@ -10,8 +11,7 @@ export default function Contact(){
             <Link to="/">Home</Link>
             <Link to="/contact">Contact Us</Link>
         </header>
-
-        <ContactUs />
+        <ContactUs/>
         <footer>
             <p>H&M Academics</p>
             <Link to="/contact">Contact Us</Link>
