@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './styles.css'
 import Mary from '../img/Mary.jpeg'
-import Hayley from '../img/picHayley.jpg'
+import Hayley from '../img/pichayley.jpg'
 import Logo from '../img/HMALogo.png'
 
 
