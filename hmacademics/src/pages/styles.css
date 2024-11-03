@@ -66,6 +66,7 @@ a {
 
 .about img{
     width: 47vw;
+    max-width:450px;
 }
 
 .contactForm {
@@ -341,7 +342,7 @@ footer{
     .rate-box h4, h5{
         text-align: center;
     }
-  
+    
     .contactForm-group{
         display:flex;
         flex-direction: column;
