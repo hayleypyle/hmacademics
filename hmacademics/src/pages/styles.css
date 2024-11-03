@@ -5,10 +5,10 @@
 }
 
 @font-face {
-    font-family: 'Garet'; /* The name you'll use in your CSS */
-    src: local('Garet-Book'), url('./fonts/Garet-Book.otf') format('opentype');
-    font-weight: 200; /* Adjust weight if necessary */
-    font-style: normal; /* Adjust style if necessary */
+    font-family: 'Garet';
+    src: local('Garet-Book'), url('/fonts/Garet-Book.otf') format('opentype');
+    font-weight: 200; 
+    font-style: normal; 
 }
 
 .container {
