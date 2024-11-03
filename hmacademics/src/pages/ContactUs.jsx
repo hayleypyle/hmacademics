@@ -12,17 +12,12 @@ export const ContactUs = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        console.log("Service ID:", serviceId);
-        console.log("Template ID:", templateId);
-        console.log("Public Key:", publicKey);
-
         emailjs
         .sendForm(serviceId, templateId, form.current, publicKey)
         .then(
             () => {
             console.log('SUCCESS!');
             form.current.reset();
-
             },
             (error) => {
             console.log('FAILED...', error.text);
@@ -31,7 +26,6 @@ export const ContactUs = () => {
     };
 
     return (
-
         <div className="contactForm">
             <h1>Contact us to schedule!</h1>
         <form ref={form} onSubmit={sendEmail}>
@@ -65,6 +59,5 @@ export const ContactUs = () => {
         <button type="submit" value="Send">Submit</button>
         </form>
         </div>
-
     );
     };

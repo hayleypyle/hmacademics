@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import './styles.css'
 import Mary from '../img/Mary.jpeg'
 import Hayley from '../img/picHayley.jpg'
+import Logo from '../img/HMALogo.png'
 
 
 export default function Home(){
@@ -14,11 +15,9 @@ export default function Home(){
             
         </header>
         <div className="container">
-        {/* <div>
-        <MySvgFile />
-        </div> */}
         <div className="about">
-        <h1>H&M Academics</h1>
+        <img src={Logo}></img>
+        
         </div>
 
         <div className="topics">
@@ -72,6 +71,61 @@ export default function Home(){
         </div>
         </div>
 
+        <div className="rates">
+        <h2>Our Rates</h2>
+            <div className="rate-box">
+                <h4>Mary</h4>
+                <h5>Standard Topics</h5>
+                <ul>
+                    <li>Biology</li>
+                    <li>Chemisty</li>
+                    <li>Anatomy & Physiology</li>
+                    <li>Microbiology</li>
+                    <li>and more...</li>
+                </ul>
+                <div className="price"> $40 per hour</div>
+            </div>
+            <div className="rate-box">
+                <h4>Hayley</h4>
+                <h5>Standard Topics</h5>
+                <ul>
+                    <li>7th-8th Grade Math</li>
+                    <li>Algebra I</li>
+                    <li>Algebra II</li>
+                    <li>Geometry</li>
+                    <li>and more...</li>
+                </ul>
+                <div className="price"> $40 per hour</div>
+            </div>
+            <div className="rate-box">
+                <h4>Mary</h4>
+                <h5>Advanced Topics</h5>
+                <ul>
+                    <li>Fundamentals of Nursing</li>
+                    <li>Medical-Surgical</li>
+                    <li>Pharmacology</li>
+                    <li>Pediatrics</li>
+                    <li>and more...</li>
+                </ul>
+                <div className="price"> $50 per hour</div>
+            </div>
+            <div className="rate-box">
+                <h4>Hayley</h4>
+                <h5>Advanced Topics</h5>
+                <ul>
+                    <li>Statistics</li>
+                    <li>PreCalculus</li>
+                    <li>Calclulus I, II, and III</li>
+                    <li>Linear Algebra</li>
+                    <li>and more...</li>
+                </ul>
+                <div className="price"> $50 per hour</div>
+            </div>
+        </div>
+        <footer>
+            <Link to="/">H&M Academics</Link>
+            <Link to="/contact">Contact Us</Link>
+        </footer>
         </>
 
     )

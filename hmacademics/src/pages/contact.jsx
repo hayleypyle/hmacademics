@@ -13,7 +13,7 @@ export default function Contact(){
         </header>
         <ContactUs/>
         <footer>
-            <p>H&M Academics</p>
+            <Link to="/">H&M Academics</Link>
             <Link to="/contact">Contact Us</Link>
         </footer>
             </>

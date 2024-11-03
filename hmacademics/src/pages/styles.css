@@ -4,15 +4,36 @@
 
 }
 
+@font-face {
+    font-family: 'Garet'; /* The name you'll use in your CSS */
+    src: local('Garet-Book'), url('./fonts/Garet-Book.otf') format('opentype');
+    font-weight: 200; /* Adjust weight if necessary */
+    font-style: normal; /* Adjust style if necessary */
+}
+
 .container {
     display:flex;
     flex-direction: column;
     align-items: center;
+    font-family: "Garet", sans-serif;
+}
+
+h2, h3, h4, h5, h6{
+    font-weight:200;
+}
+
+h4 {
+    font-size:20px;
+}
+
+h5{
+    font-size:15px;
 }
 
 header {
     font-family: "Garet", sans-serif;
-    font-weight:400;
+    font-size: 1.25rem;
+    font-weight:200;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     height:10vh;
     display:flex;
@@ -32,62 +53,72 @@ a {
 
 .about{
     font-family: "Garet", sans-serif;
-    font-weight:400;
-    height:20vh;
+    height:300px;
     display:flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    /* justify-content: space-between; */
     align-items: center;
-    color: #868B8E;
+    justify-content: center;
+    color: black;
     text-align: center;
-    padding-top:10vw;
-    padding-left:10vw;
-    padding-right:10vw;
+    padding:5%;
+}
 
+.about img{
+    width: 47vw;
 }
 
 .contactForm {
     font-family: "Garet", sans-serif;
-    font-weight:400;
+    font-weight:200;
     display:flex;
     flex-direction: column;
     align-items:center;
-    /* justify-content: space-evenly; */
     color: #868B8E;
     text-align: left;
     padding:10vw;
     height:100%;
 }
 
-/* .contactForm-inner{
+.contactForm input, button, textarea {
+    margin:10px;
+    width:100%;
+}
 
-} */
+.contactForm h1{
+    font-weight:200;
+    margin-bottom:20px;
+}
 
+.contactForm-group{
+    display:flex;
+    flex-direction:column;
+}
 
 
 .topics h2{
     font-size: 1.25rem;
+    font-weight:200;
     color: #588157;
     margin-bottom:1%;
 }
 .topics h1{
     font-size: 1.5rem;
     color: grey;
-    font-weight:400;
+    font-weight:200;
     margin-bottom:1%;
 
 }
 
 h3{
     font-family: "Garet", sans-serif;
-    font-weight:400;
+    font-weight:200;
     margin-top:15px;
     font-size:1rem;
 }
 .topics{
     font-family: "Garet", sans-serif;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-    font-weight:400;
+    font-weight:200;
     height:100%;
     width: 100vw;
     display:flex;
@@ -98,7 +129,7 @@ h3{
     text-align: left;
     color: black;
     background-color:#588157;
-    /* border:solid blue 3px; */
+    padding-bottom:5vw;
 
 }
 
@@ -109,10 +140,7 @@ h3{
     background-color:white;
     width: 600px;
     margin-top: 5vw;
-    /* margin-left:5vw;
-    margin-right:5vw; */
     padding:3%;
-    /* border: solid red 4px; */
 
 }
 
@@ -131,7 +159,7 @@ img{
 
 .schedule{
     font-family: "Garet", sans-serif;
-    font-weight:400;
+    font-weight:100;
     font-size:2rem;
     height:400px;
     width: 100vw;
@@ -140,26 +168,27 @@ img{
     display:flex;
     justify-content: space-evenly;
     align-items: center;
-    /* text-align: left; */
     color: black;
     background-color:white;
-    /* border:solid blue 3px; */
 
 }
 
 button{
+    font-family:'Garet', sans-serif;
+    font-weight:200;
+    font-size:1rem;
     background-color: #588157;
     color: white;
     padding: 20px 40px;
     border-radius: 30px;
     border-style: none;
     cursor: pointer;
-    font-size:0.5rem;
+
 }
 
 .rates{
     font-family: "Garet", sans-serif;
-    font-weight:400;
+    font-weight:100;
     height:100%;
     width: 100vw;
     color: black;
@@ -218,6 +247,8 @@ button{
 
 
 footer{
+    font-family: "Garet", sans-serif;
+    font-weight:100;
     background-color: #588157;
     color: white;
     display:flex;
@@ -235,6 +266,10 @@ footer{
         padding-left:1vw;
         padding-right:1vw;
     
+    }
+
+    .about img{
+        width:100%;
     }
 
     img{
@@ -293,11 +328,9 @@ footer{
         flex-wrap:wrap;
         background-color:#ffffff;
         width:80%;
-        /* width:15%;
-        margin:15px;
-        padding:15px; */
 
     }
+
 
     .price{
         margin-top:10px;
