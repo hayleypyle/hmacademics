@@ -210,7 +210,7 @@ button{
 .rates h2{
     width:100vw;
     font-size:2rem;
-    margin-bottom:5%;
+    margin:5%;
     display:flex;
     flex-direction:column;
     align-items: center;
@@ -229,8 +229,15 @@ button{
     width:15%;
     margin:15px;
     padding:3%;
+    /* width: 65%;
+    margin:2%;
+    padding-left:5%; */
 
 }
+
+.rate-box h4, h5{
+    text-align:center;
+} /*new*/
 
 .price{
     background-color:#FCB017;
@@ -327,6 +334,15 @@ footer{
         justify-content: center;
         align-items: center;
         height:100%;
+    }
+
+    .rates h2{
+        width:100vw;
+        font-size:2rem;
+        margin-bottom:5%;
+        display:flex;
+        flex-direction:column;
+        align-items: center;
     }
 
     .rate-box{

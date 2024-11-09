@@ -71,6 +71,11 @@ export default function Home(){
         </div>
         </div>
 
+        <div className="schedule">
+            <p>Schedule a Tutoring Session Now</p>
+            <Link to="/contact"><button>Book Now</button></Link>
+        </div>
+
         <div className="rates">
         <h2>Our Rates</h2>
             <div className="rate-box">
