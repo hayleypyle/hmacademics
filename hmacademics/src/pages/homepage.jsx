@@ -17,7 +17,14 @@ export default function Home(){
         <div className="container">
         <div className="about">
         <img src={Logo}></img>
-        
+        <h3>Welcome! H&M Academics is a small tutoring business in Knoxville,
+            Tennessee. We currently offer virtual and in person tutoring for Math 
+            and Science classes, including Nursing. We welcome students of all skill levels
+            and believe all students can be successful with the right tools and instruction. 
+            Our teaching is personlized to your unique strengths and areas of improvement.
+            Together, we can create and implement a plan that will be successful 
+            to you and your goals. Contact us today to get started!
+        </h3>
         </div>
 
         <div className="topics">
